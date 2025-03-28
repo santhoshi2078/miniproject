@@ -1,0 +1,265 @@
+[{
+  "_id": {
+    "$oid": "66f034e4fdffb3a8ac4ad0d7"
+  },
+  "provider_name": "Wrench Works - Car Repair Service",
+  "location": "Hyderabad",
+  "services": {
+    "Towing": "800/-",
+    "Flat Tire": "300/-",
+    "Fuel Delivery": "500/-",
+    "Battery Jumpstart": "600/-"
+  },
+  "price_range": "₹300 - ₹800",
+  "rating": 4.7,
+  "phone_number": "+91-9876543210",
+  "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243573.4639763716!2d78.25390261640624!3d17.467591799999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb917bb376b85b%3A0x7776500d4c7da9d!2sWrench%20Works%20-%20Car%20Repair%20Service!5e0!3m2!1sen!2sin!4v1727017139936!5m2!1sen!2sin"
+},
+{
+  "_id": {
+    "$oid": "66f034e4fdffb3a8ac4ad0d8"
+  },
+  "provider_name": "Go Car Care",
+  "location": "Hyderabad",
+  "services": {
+    "Towing": 850,
+    "Flat Tire": 350,
+    "Fuel Delivery": 550,
+    "Battery Jumpstart": 650
+  },
+  "price_range": "₹350 - ₹850",
+  "rating": 4.5,
+  "phone_number": "+91-9876543211",
+  "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243556.01605483124!2d78.27738621640623!3d17.480629900000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb918cd3cc4b7d%3A0xad0e9c8c7a3f1b3!2sGo%20Car%20Care!5e0!3m2!1sen!2sin!4v1727017194589!5m2!1sen!2sin"
+},
+{
+  "_id": {
+    "$oid": "66f034e4fdffb3a8ac4ad0d9"
+  },
+  "provider_name": "BHARATH AUTO WORK SHOP",
+  "location": "Hyderabad",
+  "services": {
+    "Towing": 900,
+    "Flat Tire": 400,
+    "Fuel Delivery": 600,
+    "Battery Jumpstart": 700
+  },
+  "price_range": "₹400 - ₹900",
+  "rating": 4.6,
+  "phone_number": "+91-9876543212",
+  "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243683.69207666058!2d78.36746331640624!3d17.385004000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99b2f22c61ff%3A0xf2d3ed68b0dd8244!2sBHARATH%20AUTO%20WORK%20SHOP!5e0!3m2!1sen!2sin!4v1727017269502!5m2!1sen!2sin"
+},
+{
+  "_id": {
+    "$oid": "66f034e4fdffb3a8ac4ad0da"
+  },
+  "provider_name": "VARUN MOTORS PVT. LTD. Maruti",
+  "location": "Karimnagar",
+  "services": {
+    "Towing": 700,
+    "Flat Tire": 300,
+    "Fuel Delivery": 450,
+    "Battery Jumpstart": 500
+  },
+  "price_range": "₹300 - ₹700",
+  "rating": 4.8,
+  "phone_number": "+91-9876543213",
+  "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60552.356085153675!2d79.0802219791016!3d18.459988300000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bccd8cdd5be4f0b%3A0x68682c220ec1319d!2sVARUN%20MOTORS%20PVT.%20LTD.%20Maruti!5e0!3m2!1sen!2sin!4v1727017331177!5m2!1sen!2sin"
+},
+{
+  "_id": {
+    "$oid": "66f034e4fdffb3a8ac4ad0db"
+  },
+  "provider_name": "Madhu Motors",
+  "location": "Karimnagar",
+  "services": {
+    "Towing": 750,
+    "Flat Tire": 320,
+    "Fuel Delivery": 480,
+    "Battery Jumpstart": 530
+  },
+  "price_range": "₹320 - ₹750",
+  "rating": 4.3,
+  "phone_number": "+91-9876543214",
+  "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60551.774410955964!2d79.07880727910157!3d18.46163700000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bccd8cc6a9fb515%3A0xc9cfa1a2b21cbdb!2sMadhu%20Motors!5e0!3m2!1sen!2sin!4v1727017363874!5m2!1sen!2sin"
+},
+{
+  "_id": {
+    "$oid": "66f034e4fdffb3a8ac4ad0dc"
+  },
+  "provider_name": "MALLIKARJUNA MOTORS",
+  "location": "Karimnagar",
+  "services": {
+    "Towing": 800,
+    "Flat Tire": 350,
+    "Fuel Delivery": 500,
+    "Battery Jumpstart": 550
+  },
+  "price_range": "₹350 - ₹800",
+  "rating": 4.5,
+  "phone_number": "+91-9876543215",
+  "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60568.3077158405!2d79.10309677910155!3d18.4147194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bccd9ede86e88f7%3A0x32b17d9ac32bea56!2sMALLIKARJUNA%20MOTORS!5e0!3m2!1sen!2sin!4v1727017407799!5m2!1sen!2sin"
+},
+{
+  "_id": {
+    "$oid": "66f034e4fdffb3a8ac4ad0dd"
+  },
+  "provider_name": "Innovation Garage",
+  "location": "Warangal",
+  "services": {
+    "Towing": 850,
+    "Flat Tire": 380,
+    "Fuel Delivery": 530,
+    "Battery Jumpstart": 580
+  },
+  "price_range": "₹380 - ₹850",
+  "rating": 4.4,
+  "phone_number": "+91-9876543216",
+  "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60718.19414669994!2d79.49822437910156!3d17.983987299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a334fbc10b03c55%3A0x7e28892fbcc62a7d!2sInnovation%20Garage!5e0!3m2!1sen!2sin!4v1727017457008!5m2!1sen!2sin"
+},
+{
+  "_id": {
+    "$oid": "66f034e4fdffb3a8ac4ad0de"
+  },
+  "provider_name": "SOMESHWARA AUTO WORKS",
+  "location": "Warangal",
+  "services": {
+    "Towing": 870,
+    "Flat Tire": 400,
+    "Fuel Delivery": 550,
+    "Battery Jumpstart": 600
+  },
+  "price_range": "₹400 - ₹870",
+  "rating": 4.7,
+  "phone_number": "+91-9876543217",
+  "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60735.263727837264!2d79.49716137910153!3d17.9381725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a334fbdef68e497%3A0x9a362e5e1af34492!2sSOMESHWARA%20AUTO%20WORKS!5e0!3m2!1sen!2sin!4v1727017493034!5m2!1sen!2sin"
+},
+{
+  "_id": {
+    "$oid": "66f034e4fdffb3a8ac4ad0df"
+  },
+  "provider_name": "VINAYAKA Motors",
+  "location": "Warangal",
+  "services": {
+    "Towing": 920,
+    "Flat Tire": 420,
+    "Fuel Delivery": 580,
+    "Battery Jumpstart": 630
+  },
+  "price_range": "₹420 - ₹920",
+  "rating": 4.6,
+  "phone_number": "+91-9876543218",
+  "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60718.19414669994!2d79.49822437910156!3d17.983987299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a334fbc10b03c55%3A0x7e28892fbcc62a7d!2sVINAYAKA%20Motors!5e0!3m2!1sen!2sin!4v1727017541692!5m2!1sen!2sin"
+},
+{
+  "_id": {
+    "$oid": "67129f5a3b8f908c38ac885c"
+  },
+  "provider_name": "Sri Vinayaka Motors & Car Mechanic",
+  "location": "Huzurabad",
+  "services": {
+    "Car Repair": "₹1200",
+    "Engine Service": "₹2000",
+    "Oil Change": "₹800"
+  },
+  "price_range": "₹800 - ₹2000",
+  "rating": 4.5,
+  "phone_number": "+91-9876543210",
+  "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121293.00879690911!2d79.33080655820312!3d18.1912332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a33358f2a82b431%3A0x201e353f9c5a87f!2sSri%20Vinayaka%20motors%26car%20mechanic!5e0!3m2!1sen!2sin!4v1729272528007!5m2!1sen!2sin"
+},
+{
+  "_id": {
+    "$oid": "67129f5a3b8f908c38ac885d"
+  },
+  "provider_name": "Anil Bike Repairing Center",
+  "location": "Huzurabad",
+  "services": {
+    "Bike Repair": "₹500",
+    "Tyre Replacement": "₹600",
+    "Battery Replacement": "₹700"
+  },
+  "price_range": "₹500 - ₹700",
+  "rating": 4.2,
+  "phone_number": "+91-9876543211",
+  "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121286.37250998722!2d79.32688105820313!3d18.2007703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3335ad09f0a773%3A0xc14607065f559ec5!2sAnil%20Bike%20Repairing%20Center%20Mulkanoor!5e0!3m2!1sen!2sin!4v1729272569819!5m2!1sen!2sin"
+},
+{
+  "_id": {
+    "$oid": "67129f5a3b8f908c38ac885e"
+  },
+  "provider_name": "Janatha Garage",
+  "location": "Huzurabad",
+  "services": {
+    "Full Car Service": "₹2500",
+    "Brake Service": "₹1000",
+    "Tyre Replacement": "₹900"
+  },
+  "price_range": "₹900 - ₹2500",
+  "rating": 4.6,
+  "phone_number": "+91-9876543212",
+  "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121290.8833743375!2d79.33059855820312!3d18.194288199999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a333500591edbab%3A0xb7d803418719b3fa!2sJanatha%20garage!5e0!3m2!1sen!2sin!4v1729272610716!5m2!1sen!2sin"
+},
+{
+  "_id": {
+    "$oid": "67129f5a3b8f908c38ac885f"
+  },
+  "provider_name": "Aeon Motor Works",
+  "location": "Bangalore",
+  "services": {
+    "Luxury Car Service": "₹5000",
+    "Engine Overhaul": "₹7000",
+    "AC Repair": "₹3000"
+  },
+  "price_range": "₹3000 - ₹7000",
+  "rating": 4.8,
+  "phone_number": "+91-9876543213",
+  "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248826.31152541412!2d77.60828215000004!3d12.97753650000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6def5e006c63%3A0xea98fb908058ad7e!2sAeon%20Motor%20Works%20-%20Luxury%20%26%20Premium%20Car%20Service%20Center%20Bangalore!5e0!3m2!1sen!2sin!4v1729272732026!5m2!1sen!2sin"
+},
+{
+  "_id": {
+    "$oid": "67129f5a3b8f908c38ac8860"
+  },
+  "provider_name": "Engineer's Auto Garage",
+  "location": "Chennai",
+  "services": {
+    "Car Repair": "₹1800",
+    "Engine Service": "₹2300",
+    "Wheel Alignment": "₹1500"
+  },
+  "price_range": "₹1500 - ₹2300",
+  "rating": 4.4,
+  "phone_number": "+91-9876543214",
+  "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248761.23807292862!2d80.0800705164063!3d13.042396699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52671362b23da5%3A0xd222195b10dad44d!2sEngineer&#39;s%20Auto%20Garage!5e0!3m2!1sen!2sin!4v1729272765842!5m2!1sen!2sin"
+},
+{
+  "_id": {
+    "$oid": "67129f5a3b8f908c38ac8861"
+  },
+  "provider_name": "Wheel Force Centre Delhi",
+  "location": "Delhi",
+  "services": {
+    "Luxury Car Service": "₹6000",
+    "AC Repair": "₹3500",
+    "Engine Service": "₹5000"
+  },
+  "price_range": "₹3500 - ₹6000",
+  "rating": 4.9,
+  "phone_number": "+91-9876543215",
+  "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448272.0081604774!2d76.84196803281249!3d28.6260136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d036ef6c9cac1%3A0xe0b65f37085f2c7d!2sWheel%20Force%20Centre%20Delhi%20-%20Audi%20%2C%20Bmw%20%2C%20Mercedes%20Repair%20%26%20Service!5e0!3m2!1sen!2sin!4v1729272801113!5m2!1sen!2sin"
+},
+{
+  "_id": {
+    "$oid": "67129f5a3b8f908c38ac8862"
+  },
+  "provider_name": "Maharashtra Automobile",
+  "location": "Mumbai",
+  "services": {
+    "Car Service": "₹2500",
+    "Wheel Alignment": "₹1300",
+    "AC Repair": "₹2000"
+  },
+  "price_range": "₹1300 - ₹2500",
+  "rating": 4.7,
+  "phone_number": "+91-9876543216",
+  "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241219.3763275894!2d72.70567471640625!3d19.149167900000013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63ecfd3c809%3A0xd55aee12c4025d0d!2sMaharashtra%20Automobile!5e0!3m2!1sen!2sin!4v1729272833231!5m2!1sen!2sin"
+}]
