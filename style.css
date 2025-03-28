@@ -1,0 +1,80 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.btn-huge {
+    padding: 15px 30px;
+    font-size: 1.25rem;
+    border-radius: 8px;
+}
+
+h1 {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: roboto;
+}
+
+.text-center {
+    margin-top: 20%;
+}
+
+.card {
+    border: 1px solid #007bff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    color: #007bff;
+    font-weight: bold;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+}
+
+.gif-container {
+    width: 100%;
+    max-width: 500px; /* Adjust the width as needed */
+    margin: 20px;
+}
+
+.gif-container video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: rounded corners */
+}

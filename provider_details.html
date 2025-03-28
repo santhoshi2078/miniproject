@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Provider Details</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #ffffff; /* White background */
+        }
+
+        /* Navbar */
+        .navbar {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            background-color: #243948;
+            padding: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .navbar img {
+            height: 70px;
+            margin-right: 20px;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            margin-left: auto;
+        }
+
+        .navbar ul li {
+            margin-right: 20px;
+        }
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+
+        .navbar ul li a:hover {
+            color: #d9d9d9;
+        }
+
+        /* Callout box styles */
+        .callout-box {
+            background-color: #e9f5ff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .callout-box:hover {
+            transform: scale(1.02);
+        }
+
+        .provider-details {
+            margin-top: 120px;
+        }
+
+        .service-list {
+            margin-top: 20px;
+        }
+
+        .map-iframe {
+            width: 100%;
+            height: 500px;
+            border: 0;
+        }
+
+        /* Rating box */
+        .rating-bar {
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #e9f5ff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .rating-bar input[type="radio"] {
+            display: none;
+        }
+
+        .rating-bar label {
+            font-size: 2rem;
+            color: #ddd;
+            cursor: pointer;
+            transition: color 0.3s ease;
+            margin: 0 5px;
+        }
+
+        /* Hover effect for stars */
+        .rating-bar label:hover,
+        .rating-bar label:hover ~ label {
+            color: #ffcc00;
+        }
+
+        /* Apply color to selected star and all stars to the left */
+        .rating-bar input[type="radio"]:checked ~ label,
+        .rating-bar input[type="radio"]:checked ~ label ~ label {
+            color: #ddd;
+        }
+
+        .rating-bar input[type="radio"]:checked ~ label:nth-of-type(-n+5) {
+            color: #ffcc00;
+        }
+
+        /* Review popup */
+        #review-popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            border: 2px solid #335a84;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+        }
+
+        #review-popup button {
+            background-color: #75a9e1;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            cursor: pointer;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+
+        #review-popup button:hover {
+            background-color: #243948;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <img src="{{ url_for('static', filename='images/logo2.jpeg') }}" class="logo" alt="Logo">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/service">Services</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Provider Details -->
+    <div class="container provider-details">
+
+        <div class="callout-box">
+            <h2>Details for Provider: {{ provider.name }}</h2>
+        </div>
+
+        <div class="callout-box">
+            <p><strong>Location:</strong> {{ provider.location }}</p>
+            <p><strong>Rating:</strong> {{ provider.rating }} ⭐</p>
+            <p><strong>Price Range:</strong> {{ provider.price_range }}</p>
+        </div>
+
+        <div class="callout-box service-list">
+            <h4>Services Provided:</h4>
+            {% for service, price in provider.services.items() %}
+            <div class="service-item">
+                <strong>{{ service }}:</strong> {{ price }}
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="callout-box">
+            <p><strong>Contact:</strong> {{ provider.phone_number }}</p>
+        </div>
+
+        <!-- Map -->
+        <iframe class="map-iframe" src="{{ provider.map_url }}" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <a href="tel:{{ provider.phone }}" class="btn btn-success mt-3">Call Provider</a>
+
+        <!-- Rating bar -->
+        <div class="rating-bar">
+            <h4>Rate this provider:</h4>
+            <input type="radio" id="star1" name="rating" value="1">
+            <label for="star1">⭐</label>
+            <input type="radio" id="star2" name="rating" value="2">
+            <label for="star2">⭐</label>
+            <input type="radio" id="star3" name="rating" value="3">
+            <label for="star3">⭐</label>
+            <input type="radio" id="star4" name="rating" value="4">
+            <label for="star4">⭐</label>
+            <input type="radio" id="star5" name="rating" value="5">
+            <label for="star5">⭐</label>
+        </div>
+
+    </div>
+
+    <!-- Review pop-up -->
+    <div id="review-popup">
+        <p id="popup-message"></p>
+        <button onclick="closePopup()">OK</button>
+    </div>
+
+    <script>
+        const stars = document.querySelectorAll('.rating-bar input[type="radio"]');
+        const popup = document.getElementById('review-popup');
+        const popupMessage = document.getElementById('popup-message');
+
+        stars.forEach(star => {
+            star.addEventListener('change', function () {
+                const rating = this.value;
+                popupMessage.textContent = `You have rated ${rating} star(s)`;
+                popup.style.display = 'block';
+
+                // Update star colors
+                document.querySelectorAll('.rating-bar label').forEach(label => {
+                    label.style.color = '#ddd'; // Reset all stars
+                });
+                this.labels.forEach((label, index) => {
+                    if (index < rating) {
+                        label.style.color = '#ffcc00'; // Highlight up to selected star
+                    }
+                });
+            });
+        });
+
+        function closePopup() {
+            popup.style.display = 'none';
+        }
+    </script>
+
+</body>
+
+</html>
